@@ -2,6 +2,12 @@ package ec.edu.upse.facsistel.urban_computing.data_structures;
 
 import java.util.UUID;
 
+/**
+ * The Spatial Point represents a point in a 
+ * geographical location via Latitude, Longitude and Altitude.
+ * @author ivansanchez
+ *
+ */
 public class SpatialPoint {
 	private final UUID id = UUID.randomUUID();
 	private double latitude;
